@@ -1,0 +1,6 @@
+{
+    "token": "abc123",
+    "hooks": {
+        "hello": "scripts/hello.sh"
+    }
+}
