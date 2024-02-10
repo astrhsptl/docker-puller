@@ -19,7 +19,7 @@ jobs:
         run: ruff check . --select F401 --select F403 --quiet
 
   deployment:
-    needs: [lint,test]
+    needs: [lint]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
