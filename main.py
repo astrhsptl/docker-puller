@@ -14,7 +14,6 @@ async def hook_api(
     background: BackgroundTasks,
     payload: WebhookPayload,
 ) -> Response:
-    # print(payload)
     hook = payload.repository.name
 
     if not config:
